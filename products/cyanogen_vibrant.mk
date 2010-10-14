@@ -1,5 +1,5 @@
 # Inherit device configuration for Vibrant.
-$(call inherit-product, device/samsung/vibrant/full_vibrant.mk)
+$(call inherit-product, device/samsung/SGH-T959/full_vibrant.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common.mk)
