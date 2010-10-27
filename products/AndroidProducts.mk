@@ -15,6 +15,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_vibrant.mk \
     $(LOCAL_DIR)/cyanogen_legend.mk \
     $(LOCAL_DIR)/cyanogen_vision.mk \
+<<<<<<< HEAD
     $(LOCAL_DIR)/cyanogen_one.mk \
     $(LOCAL_DIR)/cyanogen_z71.mk \
     $(LOCAL_DIR)/cyanogen_glacier.mk \
@@ -26,3 +27,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_epic.mk
 
 
+=======
+    $(LOCAL_DIR)/cyanogen_epic.mk \
+    $(LOCAL_DIR)/cyanogen_captivate.mk
+>>>>>>> captivate: add back into cm vendor
