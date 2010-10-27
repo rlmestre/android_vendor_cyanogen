@@ -1,5 +1,9 @@
 # Inherit device configuration for Captivate.
+<<<<<<< HEAD
 $(call inherit-product, device/samsung/captivate/full_captivate.mk)
+=======
+$(call inherit-product, device/samsung/SGH-I897/full_captivate.mk)
+>>>>>>> Captivate: Add SGH-I897 from atinm
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common.mk)
@@ -12,13 +16,21 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 #
 PRODUCT_NAME := cyanogen_captivate
 PRODUCT_BRAND := Samsung
+<<<<<<< HEAD
 PRODUCT_DEVICE := captivate
+=======
+PRODUCT_DEVICE := SGH-I897
+>>>>>>> Captivate: Add SGH-I897 from atinm
 PRODUCT_MODEL := SGH-I897
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-I897 BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 BUILD_FINGERPRINT=google/passion/passion/mahimahi:2.2.1/FRG83/60505:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.2.1 FRG83 60505 release-keys"
 
 # Extra Captivate overlay
+<<<<<<< HEAD
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/captivate
+=======
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vibrant
+>>>>>>> Captivate: Add SGH-I897 from atinm
 
 #
 # Set ro.modversion
