@@ -18,7 +18,7 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-T959 TARGET_DEVICE=SGH-T959 TARGET_BOOTLOADER_BOARD_NAME=SGH-T959 BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 BUILD_FINGERPRINT=google/passion/passion/mahimahi:2.2.1/FRG83/60505:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.2.1 FRG83 60505 release-keys"
 
 # Extra Vibrant overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vibrant
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/galaxys
 
 #
 # Set ro.modversion
