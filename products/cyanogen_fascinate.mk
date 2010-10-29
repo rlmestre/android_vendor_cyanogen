@@ -1,4 +1,4 @@
-# Inherit device configuration for Vibrant.
+# Inherit device configuration for Fascinate.
 $(call inherit-product, device/samsung/fascinate/full_fascinate.mk)
 
 # Inherit some common cyanogenmod stuff.
@@ -9,13 +9,13 @@ $(call inherit-product, vendor/cyanogen/products/common.mk)
 #
 PRODUCT_NAME := cyanogen_fascinate
 PRODUCT_BRAND := Samsung
-PRODUCT_DEVICE := fascinate
+PRODUCT_DEVICE := Fascinate
 PRODUCT_MODEL := SCH-I500
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-1500 BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 BUILD_FINGERPRINT=google/passion/passion/mahimahi:2.2.1/FRG83/60505:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.2.1 FRG83 60505 release-keys"
 
 # Extra Vibrant overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/fascinate
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/galaxys
 
 #
 # Set ro.modversion
@@ -29,8 +29,7 @@ else
 endif
 
 #
-# Copy Vibrant specific prebuilt files
+# Copy Fascinate specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip \
-    device/samsung/fascinate/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip 
