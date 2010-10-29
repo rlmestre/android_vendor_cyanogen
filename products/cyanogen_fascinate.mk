@@ -9,12 +9,12 @@ $(call inherit-product, vendor/cyanogen/products/common.mk)
 #
 PRODUCT_NAME := cyanogen_fascinate
 PRODUCT_BRAND := Samsung
-PRODUCT_DEVICE := Fascinate
-PRODUCT_MODEL := SCH-I500
+PRODUCT_DEVICE := fascinate
+PRODUCT_MODEL := SAMSUNG-SCH-I500
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-1500 BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 BUILD_FINGERPRINT=google/passion/passion/mahimahi:2.2.1/FRG83/60505:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.2.1 FRG83 60505 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-I500 TARGET_DEVICE=SCH-I500 TARGET_BOOTLOADER_BOARD_NAME=SCH-I500 BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 BUILD_FINGERPRINT=google/passion/passion/mahimahi:2.2.1/FRG83/60505:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.2.1 FRG83 60505 release-keys"
 
-# Extra Vibrant overlay
+# Extra Fascinate overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/galaxys
 
 #
