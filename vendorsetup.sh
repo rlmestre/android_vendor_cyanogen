@@ -16,9 +16,10 @@ add_lunch_combo cyanogen_buzz-eng
 add_lunch_combo cyanogen_z71-eng
 add_lunch_combo cyanogen_glacier-eng
 add_lunch_combo cyanogen_harmony-eng
-add_lunch_combo cyanogen_epic-eng
 add_lunch_combo cyanogen_captivate-eng
-add_lunch_combo cyanogen_vibrant-eng
+add_lunch_combo cyanogen_epic-eng
 add_lunch_combo cyanogen_fascinate-eng
+add_lunch_combo cyanogen_galaxys-eng
+add_lunch_combo cyanogen_vibrant-eng
 
 PATH=$PATH:$PWD/vendor/cyanogen/tools ; export PATH
