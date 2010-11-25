@@ -17,6 +17,9 @@ PRODUCT_MODEL := SAMSUNG-GT-I9000
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I9000 TARGET_DEVICE=GT-I9000 TARGET_BOOTLOADER_BOARD_NAME=GT-I9000 BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 BUILD_FINGERPRINT=google/passion/passion/mahimahi:2.2.1/FRG83/60505:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.2.1 FRG83 60505 release-keys"
 
+# Include FM app
+PRODUCT_PACKAGES += FM
+
 # Extra Galaxy S overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/galaxys
 
@@ -28,7 +31,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-GalaxyS
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6.1.0-RC0-GalaxyS
+        ro.modversion=CyanogenMod-6.1.0-BETA1-GalaxyS
 endif
 
 #
