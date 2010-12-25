@@ -30,6 +30,7 @@ get_files() {
 app/CarHomeGoogle.apk
 app/CarHomeLauncher.apk
 app/Facebook.apk
+app/FOTAKill.apk
 app/GenieWidget.apk
 app/Gmail.apk
 app/GoogleBackupTransport.apk
@@ -53,8 +54,8 @@ app/MediaUploader.apk
 app/NetworkLocation.apk
 app/OneTimeInitializer.apk
 app/PassionQuickOffice.apk
-app/SetupWizard.apk
-app/Provision.apk
+app/Quickoffice.apk
+app/SetupWizard.apk app/Provision.apk
 app/soundback.apk
 app/Street.apk
 app/Talk.apk
